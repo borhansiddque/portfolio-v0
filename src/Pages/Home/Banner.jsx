@@ -24,7 +24,7 @@ const Banner = () => {
             <span className="text-purple-300">Hey,</span> I'm Borhan
           </h2>
 
-          <p className="text-lg w-3/4 mt-4 relative">
+          <p className="text-lg max-w-3/4 mt-4 relative">
             I'm a passionate Full Stack Developer specializing in the MERN stack
             (MongoDB, Express.js, React, and Node.js). I thrive on crafting
             modern, responsive, and scalable web applications that not only look
