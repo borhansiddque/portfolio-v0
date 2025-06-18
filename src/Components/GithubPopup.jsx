@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { FaPlus, FaGithub } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
+import toast from "react-hot-toast";
 
 const GithubPopup = () => {
   const [show, setShow] = useState(true);
-  const [countdown, setCountdown] = useState(70);
+  const [countdown, setCountdown] = useState(5);
   useEffect(() => {
     if (countdown === 0) {
       setShow(false);
@@ -21,24 +22,34 @@ const GithubPopup = () => {
   if (!show) {
     return null;
   }
-  
+
+  const handleCopyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText("borhansiddque19@gmail.com");
+      toast.success("Email copied to clipboard!");
+    } catch (err) {
+      console.error("Failed to copy!", err);
+    }
+  };
+
   return (
     <div className="fixed flex items-center justify-center bg-black/60 z-50 w-full h-full">
       <div className="bg-neutral-900 text-white p-6 rounded-xl shadow-xl relative w-full max-w-sm">
         <div className="flex items-center justify-between mb-5">
           <div
-            className="m-0 inline-block bg-[#2a2a2a] p-2 rounded cursor-pointer scale-95 hover:scale-110 transition-all duration-300"
+            className="inline-block bg-[#2a2a2a] p-2 rounded cursor-pointer scale-95 hover:scale-110 transition-all duration-300"
+            onClick={handleCopyEmail}
           >
-            <CiMail
-              size={25}
-              className=""
-            />
+            <CiMail size={25} className="" />
           </div>
           <button
             onClick={() => setShow(false)}
             className=" text-gray-400 hover:text-white cursor-pointer "
           >
-            <FaPlus size={23} className="hover:rotate-130 transition-all duration-300" />
+            <FaPlus
+              size={23}
+              className="hover:rotate-130 transition-all duration-300"
+            />
           </button>
         </div>
 

@@ -4,17 +4,17 @@ import { Outlet } from "react-router";
 import Footer from "../Components/Footer";
 import LottieBackground from "../Components/LottieBackground";
 import GithubPopup from "../Components/GithubPopup";
+import { Toaster } from "react-hot-toast";
 
 const MainLayout = () => {
   return (
     <>
+      <Toaster position="top-right" />
       <GithubPopup></GithubPopup>
       <LottieBackground />
       <main className="relative z-10">
         <Navbar />
-        <div className="min-h-[80vh]">
-          <Outlet></Outlet>
-        </div>
+        <Outlet></Outlet>
         <Footer />
       </main>
     </>

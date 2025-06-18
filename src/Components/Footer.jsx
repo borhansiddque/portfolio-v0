@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
       <p className="mt-5">
         Developed By -{" "}
-        <a href="" className="link text-purple-400">
+        <a href="" className="link text-purple-300">
           Borhan Siddque
         </a>
       </p>
