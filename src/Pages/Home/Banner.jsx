@@ -5,7 +5,7 @@ import { TbTargetArrow } from "react-icons/tb";
 
 const Banner = () => {
   return (
-    <div className="my-10 max-w-7xl mx-auto">
+    <div className="mt-10 max-w-7xl mx-auto">
       <div
         className="p-5 rounded-lg bg-center bg-cover bg-no-repeat"
         style={{
