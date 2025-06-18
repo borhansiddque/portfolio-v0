@@ -26,7 +26,7 @@ const Navbar = () => {
             }`
           }
         >
-          About
+          My Works
         </NavLink>
       </li>
       <li>
