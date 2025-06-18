@@ -2,7 +2,7 @@ import { FaCode, FaServer, FaPaintBrush } from "react-icons/fa";
 
 const MyStudioSection = () => {
   return (
-    <section className="max-w-xl mx-auto bg-gray-900 text-gray-100 rounded-xl p-8 space-y-6 font-mono">
+    <section className="max-w-xl mx-auto bg-purple-950/30 backdrop-blur-xs text-gray-100 rounded-xl p-8 space-y-6 font-mono">
       {/* Header */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 text-purple-500 font-bold text-sm uppercase tracking-wide">
@@ -13,7 +13,7 @@ const MyStudioSection = () => {
         <a
           href="/Borhan-CV.pdf"
           download
-          className="inline-block bg-gray-800 border border-gray-700 rounded-full px-4 py-2 text-sm font-semibold hover:bg-purple-600 hover:border-purple-600 transition-all duration-300"
+          className="inline-block  border rounded-full px-4 py-2 text-sm font-semibold bg-purple-600 border-purple-600 transition-all duration-300"
         >
           Download CV
         </a>
