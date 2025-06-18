@@ -1,9 +1,9 @@
 import Lottie from "lottie-react";
-import animationData from "../../public/body-bg.json";
+import animationData from "../assets/lotties/body-bg.json";
 
 const LottieBackground = () => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full -z-10 pointer-events-none">
+    <div className="fixed top-0 left-0 w-full h-full -z-10 pointer-events-none overflow-hidden">
       <Lottie animationData={animationData} loop={true} autoplay={true} />
     </div>
   );
