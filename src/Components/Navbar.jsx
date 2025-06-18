@@ -19,7 +19,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to={"/about"}
+          to={"/my-works"}
           className={({ isActive }) =>
             `text-base font-semibold uppercase px-4 py-1 rounded-md text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 border-none ${
               isActive ? "bg-purple-800 text-purple-200" : "bg-none"
@@ -70,7 +70,7 @@ const Navbar = () => {
           </ul>
         </div>
         <h2>
-          <Link to={'/'} className="text-xl font-bold flex gap-0">
+          <Link to={'/'} className="text-2xl font-bold flex gap-0">
             BS<span className="text-purple-300">.</span>
           </Link>
         </h2>
