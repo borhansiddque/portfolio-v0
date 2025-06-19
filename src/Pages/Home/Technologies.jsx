@@ -3,7 +3,7 @@ import TechButton from "./TechButton";
 
 const Technologies = () => {
   return (
-    <div className="max-w-7xl mx-auto mb-20">
+    <div className="max-w-7xl mx-auto my-20">
       <div className="">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-bold font-mono text-white">
