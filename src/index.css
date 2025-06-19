@@ -3,10 +3,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-
-/* body {
-  font-family: "Inter", sans-serif;
-} */
+::selection {
+  background-color: darkmagenta;
+  color: wheat;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Martian Mono", monospace;

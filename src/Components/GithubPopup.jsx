@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { FaPlus, FaGithub } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { IoCloseCircleOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import toast from "react-hot-toast";
 
@@ -37,7 +38,7 @@ const GithubPopup = () => {
       <div className="bg-neutral-900 text-white p-6 rounded-xl shadow-xl relative w-full max-w-sm">
         <div className="flex items-center justify-between mb-5">
           <div
-            className="inline-block bg-[#2a2a2a] p-2 rounded cursor-pointer scale-95 hover:scale-110 transition-all duration-300"
+            className="inline-block bg-[#2a2a2a] p-2 rounded cursor-pointer scale-95 hover:scale-110 shadow-none hover:shadow-lg hover:shadow-purple-500 border-none transition-all duration-300"
             onClick={handleCopyEmail}
           >
             <CiMail size={25} className="" />
@@ -46,9 +47,9 @@ const GithubPopup = () => {
             onClick={() => setShow(false)}
             className=" text-gray-400 hover:text-white cursor-pointer "
           >
-            <FaPlus
-              size={23}
-              className="hover:rotate-130 transition-all duration-300"
+            <IoCloseCircleOutline
+              size={30}
+              className="hover:rotate-130 transition-all duration-300 text-purple-500"
             />
           </button>
         </div>
@@ -69,7 +70,7 @@ const GithubPopup = () => {
             href="https://github.com/borhansiddque"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-purple-800 hover:bg-purple-600 text-white px-6 py-2 rounded-full font-semibold shadow-none hover:shadow-lg hover:shadow-purple-400 transition-all "
+            className="bg-purple-800 hover:bg-purple-600 text-white px-6 py-2 rounded-full font-semibold shadow-none hover:shadow-lg hover:shadow-purple-400 transition-all duration-300"
           >
             Follow on GitHub
           </a>

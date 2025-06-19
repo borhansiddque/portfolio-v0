@@ -43,7 +43,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to={"/contact"}
+          to={"/contact-me"}
           className={({ isActive }) =>
             `text-base font-semibold uppercase px-4 py-1 rounded-md text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 border-none ${
               isActive ? "bg-purple-800 text-purple-200" : "bg-none"

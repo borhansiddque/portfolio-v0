@@ -3,7 +3,7 @@ import MyStudioSection from "./MyStudioSection";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-7xl mx-auto my-20 flex">
+    <div className="max-w-7xl mx-auto my-30 flex">
       <div className="flex-1">
         <h2 className="text-2xl">
           About Me<span className="text-purple-300">.</span>

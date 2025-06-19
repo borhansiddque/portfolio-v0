@@ -19,6 +19,14 @@ const router = createBrowserRouter([
         Component: ComingSoon
       },
       {
+        path: "blogs",
+        Component: ComingSoon
+      },
+      {
+        path: "contact-me",
+        Component: ComingSoon
+      },
+      {
         path: "/*",
         Component: ErrorPage
       }
