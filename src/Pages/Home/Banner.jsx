@@ -1,20 +1,20 @@
 import React from "react";
 import bannerImage from "../../assets/git-profile.jpg";
-import { FaReact } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaReact, FaTwitterSquare, FaStackOverflow } from "react-icons/fa";
 import { TbTargetArrow } from "react-icons/tb";
 
 const Banner = () => {
   return (
     <div className="mt-10 max-w-7xl mx-auto">
       <div
-        className="p-5 rounded-lg bg-center bg-cover bg-no-repeat"
+        className="p-4 rounded-lg bg-center bg-cover bg-no-repeat"
         style={{
           backgroundImage: `
           linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0)),
           url('${bannerImage}')`,
         }}
       >
-        <div className="mb-20">
+        <div className="mb-10 md:mb-20">
           <div className="flex items-center gap-2">
             <FaReact size={24} />
             <h4 className="uppercase">About Me</h4>
@@ -24,7 +24,7 @@ const Banner = () => {
             <span className="text-purple-300">Hey,</span> I'm Borhan
           </h2>
 
-          <p className="text-lg max-w-3/4 mt-4 relative">
+          <p className="text-lg sm:max-w-3/4 mt-4 relative">
             I'm a passionate Full Stack Developer specializing in the MERN stack
             (MongoDB, Express.js, React, and Node.js). I thrive on crafting
             modern, responsive, and scalable web applications that not only look
@@ -37,7 +37,7 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="bg-black/50 px-5 py-10 rounded-lg backdrop-blur-xs text-white max-w-xl space-y-5">
+        <div className="bg-black/50 px-2 py-5 sm:px-5 sm:py-10 rounded-lg backdrop-blur-xs text-white sm:max-w-xl space-y-5">
           <div className="flex items-center gap-2 ">
             <TbTargetArrow size={25} />
             <h4 className="uppercase">Why I Do What I Do</h4>
@@ -65,7 +65,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="flex mt-3 justify-between">
+      <div className="hidden sm:flex mt-3 justify-between">
         <h5 className="drop-shadow-xl drop-shadow-purple-500">
           <a href="">Facebook</a>
         </h5>
@@ -78,6 +78,29 @@ const Banner = () => {
         <h5 className="drop-shadow-xl drop-shadow-purple-500">
           <a href="">Stack Overflow</a>
         </h5>
+      </div>
+      <div className="flex flex-row gap-2 items-center justify-between mt-5 sm:hidden">
+        <h3>
+          <a href="" >
+            <FaFacebookSquare size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+          </a>
+        </h3>
+        
+        <h3>
+          <a href="" >
+            <FaLinkedin size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+          </a>
+        </h3>
+        <h3>
+          <a href="">
+            <FaTwitterSquare size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+          </a>
+        </h3>
+        <h3>
+          <a href="" >
+            <FaStackOverflow size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+          </a>
+        </h3>
       </div>
     </div>
   );

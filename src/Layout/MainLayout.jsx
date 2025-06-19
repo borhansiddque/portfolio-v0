@@ -14,7 +14,9 @@ const MainLayout = () => {
       <LottieBackground />
       <main className="relative z-10">
         <Navbar />
-        <Outlet></Outlet>
+        <div className="px-4 xl:px-0">
+          <Outlet></Outlet>
+        </div>
         <Footer />
       </main>
     </>

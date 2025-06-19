@@ -60,7 +60,7 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <FaBars />
+            <FaBars size={25} />
           </div>
           <ul
             tabIndex={0}

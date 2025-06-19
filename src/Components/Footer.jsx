@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="py-10 px-5 bg-purple-950/20 backdrop-blur-xs text-purple-100">
       <div className="flex flex-col max-w-7xl mx-auto">
-        <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row items-center justify-between w-full">
+        <div className="flex gap-5 flex-row items-center justify-between w-full">
           <div className="">
             <h2>
               <Link to={"/"} className="text-2xl font-bold flex gap-0">
@@ -14,7 +14,7 @@ const Footer = () => {
               </Link>
             </h2>
           </div>
-          <nav className="flex flex-col sm:flex-row gap-2 sm:gap-7">
+          <nav className="flex sm:flex-row gap-7">
             <h3>
               <a href="" className="drop-shadow-2xl drop-shadow-purple-500">
                 <FaFacebook size={25} />
