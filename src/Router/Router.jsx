@@ -3,6 +3,7 @@ import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 import MyWorks from "../Pages/MyWorksPage/MyWorks";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import ComingSoon from "../Pages/ComingSoon.jsx/ComingSoon";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
       },
       {
         path: "my-works",
-        Component: MyWorks
+        Component: ComingSoon
       },
       {
         path: "/*",

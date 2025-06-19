@@ -70,21 +70,22 @@ const Navbar = () => {
           </ul>
         </div>
         <h2>
-          <Link to={'/'} className="text-2xl font-bold flex gap-0">
+          <Link to={"/"} className="text-2xl font-bold flex gap-0">
             BS<span className="text-purple-300">.</span>
           </Link>
         </h2>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="flex gap-6 px-1">{links}</ul>
+        <ul className="flex gap-4 px-1">{links}</ul>
       </div>
+      {/* Download CV button */}
       <div className="navbar-end">
         <a
-          href="https://github.com/borhansiddque"
-          target="_blank"
-          className="px-6 md:px-8 py-2 text-base font-medium rounded-lg bg-purple-800 text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 border-none"
+          href="/Borhan-CV.pdf"
+          download
+          className="inline-block rounded-full px-4 py-2 text-sm font-semibold bg-purple-800 text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300"
         >
-          Github
+          Download CV
         </a>
       </div>
     </div>

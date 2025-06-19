@@ -8,7 +8,7 @@ const AboutMe = () => {
         <h2 className="text-2xl">
           About Me<span className="text-purple-300">.</span>
         </h2>
-        <div className="text-lg mt-6 space-y-4">
+        <div className="text-base mt-6 space-y-4">
           <p>
             I began my web development journey in 2023 with a strong passion for
             creating modern and user-friendly websites. I started by learning
