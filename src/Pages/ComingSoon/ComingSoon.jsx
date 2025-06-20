@@ -6,17 +6,18 @@ const ComingSoon = () => {
     <div className="min-h-[80vh] flex items-center justify-center  text-white px-4">
       <div className="text-center max-w-lg space-y-6">
         {/* Icon */}
-        <div className="text-purple-500 text-5xl flex items-center justify-center">
+        <div className="text-purple-600 text-5xl flex items-center justify-center">
           <FaClock />
         </div>
 
-        <Countdown targetDate="2025-09-01T00:00:00" />
 
         {/* Title */}
         <h3 className="text-4xl font-bold">
           Coming Soon<span className="text-purple-500">.</span>
         </h3>
 
+        <Countdown targetDate="2025-09-01T00:00:00" />
+        
         {/* Description */}
         <p className="text-gray-400 text-base">
           I'm currently working on something awesome. Stay tuned for the launch of my new site — it's going to be worth the wait!

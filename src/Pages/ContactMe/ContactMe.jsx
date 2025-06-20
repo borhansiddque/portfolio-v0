@@ -40,12 +40,12 @@ const ContactMe = () => {
       });
   };
   return (
-    <div className="min-h-[70vh] max-w-7xl mx-auto my-14 sm:mt-20 sm:mb-0 flex flex-col">
-      <div className="">
+    <div className="min-h-[70vh] max-w-7xl mx-auto my-14 sm:mt-20 flex flex-col">
+      <div className="text-center">
         <h3 className="text-3xl font-bold">
           Get In Touch<span className="text-purple-500">.</span>
         </h3>
-        <p className="mt-2 md:w-3/4">
+        <p className="mt-2">
           Have a project, collaboration, or just want to say hi? Fill out the
           form below — I'll get back to you as soon as I can!
         </p>
@@ -54,7 +54,7 @@ const ContactMe = () => {
       <form
         ref={form}
         onSubmit={handleSendMessage}
-        className="space-y-10 mt-8 bg-black/20 p-5 sm:p-10 rounded-xl lg:w-3/4 ring ring-purple-300"
+        className="space-y-10 mt-8 bg-black/20 p-5 sm:p-10 rounded-xl lg:w-3/4 mx-auto ring ring-purple-300"
       >
         <div className="flex flex-col sm:flex-row gap-6">
           <input
