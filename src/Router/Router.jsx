@@ -3,6 +3,7 @@ import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import ComingSoon from "../Pages/ComingSoon/ComingSoon";
+import ContactMe from "../Pages/ContactMe/ContactMe";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "contact-me",
-        Component: ComingSoon
+        Component: ContactMe
       },
       {
         path: "/*",

@@ -10,9 +10,9 @@ const ComingSoon = () => {
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl font-bold">
+        <h3 className="text-4xl font-bold">
           Coming Soon<span className="text-purple-500">.</span>
-        </h1>
+        </h3>
 
         {/* Description */}
         <p className="text-gray-400 text-base">
