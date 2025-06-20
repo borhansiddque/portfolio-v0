@@ -1,5 +1,6 @@
 import Lottie from "lottie-react";
-import animationData from "../assets/lotties/body-bg.json";
+// import animationData from "../assets/lotties/body-bg.json";
+import animationData from "../assets/lotties/lottie.json"
 
 const LottieBackground = () => {
   return (

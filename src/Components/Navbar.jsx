@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
         <h2>
           <Link to={"/"} className="text-2xl font-bold flex gap-0">
-            BS<span className="text-purple-300">.</span>
+            BS<span className="text-purple-500">.</span>
           </Link>
         </h2>
       </div>

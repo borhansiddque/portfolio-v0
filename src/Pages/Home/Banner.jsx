@@ -19,12 +19,12 @@ const Banner = () => {
             <FaReact size={24} />
             <h4 className="uppercase">About Me</h4>
           </div>
-          <h2 className="text-3xl mt-8">
+          <h2 className="text-xl sm:text-3xl mt-8">
             {" "}
             <span className="text-purple-300">Hey,</span> I'm Borhan
           </h2>
 
-          <p className="text-lg sm:max-w-3/4 mt-4 relative">
+          <p className="sm:text-lg sm:max-w-3/4 mt-4 relative">
             I'm a passionate Full Stack Developer specializing in the MERN stack
             (MongoDB, Express.js, React, and Node.js). I thrive on crafting
             modern, responsive, and scalable web applications that not only look
@@ -40,9 +40,9 @@ const Banner = () => {
         <div className="bg-black/50 px-2 py-5 sm:px-5 sm:py-10 rounded-lg backdrop-blur-xs text-white sm:max-w-xl space-y-5">
           <div className="flex items-center gap-2 ">
             <TbTargetArrow size={25} />
-            <h4 className="uppercase">Why I Do What I Do</h4>
+            <h4 className="uppercase text-sm">Why I Do What I Do</h4>
           </div>
-          <p className="mt-2 text-lg">
+          <p className="mt-2 sm:text-lg">
             I believe that technology, when used with purpose, has the power to
             transform lives. I code not just to build websites, but to create
             solutions that are meaningful, accessible, and impactful. Every line
