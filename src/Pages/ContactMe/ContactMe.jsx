@@ -54,7 +54,7 @@ const ContactMe = () => {
       <form
         ref={form}
         onSubmit={handleSendMessage}
-        className="space-y-10 mt-8 bg-black/20 p-5 sm:p-10 rounded-xl lg:w-3/4 mx-auto ring ring-purple-300"
+        className="space-y-6 sm:space-y-10 mt-8 bg-black/20 p-5 sm:p-10 rounded-xl w-full lg:w-3/4 mx-auto ring ring-purple-300"
       >
         <div className="flex flex-col sm:flex-row gap-6">
           <input

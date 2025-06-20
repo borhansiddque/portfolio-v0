@@ -23,8 +23,8 @@ const Banner = () => {
             {" "}
             <span className="text-purple-300">Hey,</span> I'm Borhan
           </h2>
-
-          <p className="sm:text-lg sm:max-w-3/4 mt-4 relative">
+          <p className="mt-4 md:hidden">I'm a MERN stack developer focused on building modern, responsive, and user-friendly web applications. I write clean, maintainable code and follow smart architectural patterns to create seamless digital experiences that are both functional and visually engaging.</p>
+          <p className="sm:text-lg lg:max-w-3/4 mt-4 relative hidden md:block">
             I'm a passionate Full Stack Developer specializing in the MERN stack
             (MongoDB, Express.js, React, and Node.js). I thrive on crafting
             modern, responsive, and scalable web applications that not only look
@@ -33,7 +33,7 @@ const Banner = () => {
             problems through innovative digital solutions. Whether it's building
             from scratch or improving existing systems, I bring creativity,
             precision, and a strong problem-solving mindset to every project I
-            work on."
+            work on.
           </p>
         </div>
 
