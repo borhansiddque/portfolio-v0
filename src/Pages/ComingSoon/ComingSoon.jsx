@@ -1,4 +1,5 @@
 import { FaClock } from "react-icons/fa";
+import Countdown from "./Countdown";
 
 const ComingSoon = () => {
   return (
@@ -8,6 +9,8 @@ const ComingSoon = () => {
         <div className="text-purple-500 text-5xl flex items-center justify-center">
           <FaClock />
         </div>
+
+        <Countdown targetDate="2025-09-01T00:00:00" />
 
         {/* Title */}
         <h3 className="text-4xl font-bold">

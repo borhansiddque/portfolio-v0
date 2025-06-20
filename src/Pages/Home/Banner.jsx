@@ -82,23 +82,23 @@ const Banner = () => {
       <div className="flex flex-row gap-2 items-center justify-between mt-5 sm:hidden">
         <h3>
           <a href="" >
-            <FaFacebookSquare size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+            <FaFacebookSquare size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
           </a>
         </h3>
         
         <h3>
           <a href="" >
-            <FaLinkedin size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+            <FaLinkedin size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
           </a>
         </h3>
         <h3>
           <a href="">
-            <FaTwitterSquare size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+            <FaTwitterSquare size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
           </a>
         </h3>
         <h3>
           <a href="" >
-            <FaStackOverflow size={25} className="shadow-none hover:shadow-xl hover:shadow-purple-500 transition-all duration-300" />
+            <FaStackOverflow size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
           </a>
         </h3>
       </div>

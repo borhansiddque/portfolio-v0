@@ -40,7 +40,7 @@ const ContactMe = () => {
       });
   };
   return (
-    <div className="min-h-[70vh] max-w-7xl mx-auto mt-20 mb-10 sm:mb-0 flex flex-col">
+    <div className="min-h-[70vh] max-w-7xl mx-auto my-14 sm:mt-20 sm:mb-0 flex flex-col">
       <div className="">
         <h3 className="text-3xl font-bold">
           Get In Touch<span className="text-purple-500">.</span>
@@ -54,32 +54,32 @@ const ContactMe = () => {
       <form
         ref={form}
         onSubmit={handleSendMessage}
-        className="space-y-6 mt-8 bg-black/20 p-5 rounded-xl md:w-3/4"
+        className="space-y-10 mt-8 bg-black/20 p-5 sm:p-10 rounded-xl lg:w-3/4 ring ring-purple-300"
       >
         <div className="flex flex-col sm:flex-row gap-6">
           <input
             name="name"
             type="text"
             placeholder="Your Name"
-            className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none"
+            className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-md shadow-purple-500 transition-all duration-300"
           />
           <input
             name="email"
             type="email"
             placeholder="Your Email"
-            className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none"
+            className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-md shadow-purple-500 transition-all duration-300"
           />
         </div>
         <textarea
           name="message"
           rows="5"
           placeholder="Your Message"
-          className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none"
+          className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-md shadow-purple-500 transition-all duration-300"
         ></textarea>
 
         <button
           type="submit"
-          className="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded font-semibold transition-colors cursor-pointer"
+          className="inline-block rounded-full px-6 py-3 text-sm font-semibold bg-purple-800 text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 cursor-pointer"
         >
           Send Message
         </button>

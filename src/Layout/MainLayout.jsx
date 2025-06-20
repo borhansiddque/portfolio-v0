@@ -10,9 +10,9 @@ const MainLayout = () => {
   return (
     <>
       <Toaster position="top-right" />
-      {/* <GithubPopup></GithubPopup> */}
+      <GithubPopup></GithubPopup>
       <LottieBackground />
-      <main className="relative z-10">
+      <main className="relative z-10 ">
         <Navbar />
         <div className="px-4 xl:px-0">
           <Outlet></Outlet>
