@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const GithubPopup = () => {
   const [show, setShow] = useState(true);
-  const [countdown, setCountdown] = useState(10);
+  const [countdown, setCountdown] = useState(100);
   useEffect(() => {
     if (countdown === 0) {
       setShow(false);
@@ -49,14 +49,14 @@ const GithubPopup = () => {
           >
             <IoCloseCircleOutline
               size={30}
-              className="hover:rotate-130 transition-all duration-300 text-purple-500"
+              className="hover:rotate-360 transition-all duration-300 text-red-500"
             />
           </button>
         </div>
 
         <div className="flex flex-col items-center gap-4 text-center">
-          <div className="bg-neutral-800 p-3 rounded-full">
-            <FaGithub size={25} />
+          <div className="bg-purple-500/20 p-3 rounded-full ring-2 ring-purple-500/50">
+            <FaGithub size={30} />
           </div>
 
           <div>
@@ -70,7 +70,7 @@ const GithubPopup = () => {
             href="https://github.com/borhansiddque"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-purple-800 hover:bg-purple-600 text-white px-6 py-2 rounded-full font-semibold shadow-none hover:shadow-lg hover:shadow-purple-400 transition-all duration-300"
+            className="bg-purple-800 hover:bg-purple-600 text-white px-6 py-2 rounded-full font-semibold shadow-none hover:shadow-lg hover:shadow-purple-400 transition-all duration-300 w-full"
           >
             Follow on GitHub
           </a>

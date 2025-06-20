@@ -1,9 +1,8 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
-import MyWorks from "../Pages/MyWorksPage/MyWorks";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
-import ComingSoon from "../Pages/ComingSoon.jsx/ComingSoon";
+import ComingSoon from "../Pages/ComingSoon/ComingSoon";
 
 const router = createBrowserRouter([
   {
