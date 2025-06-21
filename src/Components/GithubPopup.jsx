@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const GithubPopup = () => {
   const [show, setShow] = useState(true);
-  const [countdown, setCountdown] = useState(100);
+  const [countdown, setCountdown] = useState(10);
   useEffect(() => {
     if (countdown === 0) {
       setShow(false);

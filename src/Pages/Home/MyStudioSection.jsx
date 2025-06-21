@@ -34,7 +34,7 @@ const MyStudioSection = () => {
       {/* Skills/Service Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
         {/* Web Development */}
-        <div className="bg-gray-800 rounded p-4 space-y-2">
+        <div className="bg-gray-800 rounded p-4 space-y-2 col-span-2 lg:col-span-1">
           <div className="flex items-center gap-2 text-purple-500 font-bold text-sm uppercase tracking-wide">
             <FaCode />
             <span>Web Development</span>
@@ -46,7 +46,7 @@ const MyStudioSection = () => {
         </div>
 
         {/* Backend Basics */}
-        <div className="bg-gray-800 rounded p-4 space-y-2">
+        <div className="bg-gray-800 rounded p-4 space-y-2 col-span-2 lg:col-span-1">
           <div className="flex items-center gap-2 text-purple-500 font-bold text-sm uppercase tracking-wide">
             <FaServer />
             <span>Backend Basics</span>
