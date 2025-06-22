@@ -24,11 +24,11 @@ const Countdown = ({ targetDate }) => {
   }, [targetDate]);
 
   if (!timeLeft) {
-    return <p className="text-purple-400 text-lg font-bold">We're live now!</p>;
+    return <p className="text-orange-400 text-lg font-bold">We're live now!</p>;
   }
 
   return (
-    <div className="text-center text-white space-y-2 bg-purple-600 rounded-2xl ring-4 ring-purple-900">
+    <div className="text-center text-white space-y-2 bg-orange-600 rounded-2xl ring-4 ring-orange-900">
       {/* <p className="text-gray-400">Launching in:</p> */}
       <div className="flex justify-center gap-6 text-2xl font-bold">
         <div>{timeLeft.days}d</div>
