@@ -4,10 +4,25 @@
 @plugin "daisyui";
 
 ::selection {
-  background-color: darkorange;
+  background-color: #ff8c00;
   color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Martian Mono", monospace;
+}
+
+
+@keyframes moveStars {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 10000px 10000px;
+  }
+}
+
+.animated-stars {
+  background: url('./assets/stardust.png'); /* or your own star image */
+  animation: moveStars 300s linear infinite;
 }
