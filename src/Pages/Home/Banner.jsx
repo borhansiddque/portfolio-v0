@@ -21,7 +21,7 @@ const Banner = () => {
           </div>
           <h2 className="text-xl sm:text-3xl mt-8">
             {" "}
-            <span className="text-purple-300">Hey,</span> I'm Borhan
+            <span className="text-orange-300">Hey,</span> I'm Borhan
           </h2>
           <p className="mt-4 md:hidden">I'm a MERN stack developer focused on building modern, responsive, and user-friendly web applications. I write clean, maintainable code and follow smart architectural patterns to create seamless digital experiences that are both functional and visually engaging.</p>
           <p className="sm:text-lg lg:max-w-3/4 mt-4 relative hidden md:block">
@@ -66,39 +66,39 @@ const Banner = () => {
         </div>
       </div>
       <div className="hidden sm:flex mt-3 justify-between">
-        <h5 className="drop-shadow-xl drop-shadow-purple-500">
+        <h5 className="drop-shadow-xl drop-shadow-orange-500">
           <a href="">Facebook</a>
         </h5>
-        <h5 className="drop-shadow-xl drop-shadow-purple-500">
+        <h5 className="drop-shadow-xl drop-shadow-orange-500">
           <a href="">LinkedIn</a>
         </h5>
-        <h5 className="drop-shadow-xl drop-shadow-purple-500">
+        <h5 className="drop-shadow-xl drop-shadow-orange-500">
           <a href="">Twitter</a>
         </h5>
-        <h5 className="drop-shadow-xl drop-shadow-purple-500">
+        <h5 className="drop-shadow-xl drop-shadow-orange-500">
           <a href="">Stack Overflow</a>
         </h5>
       </div>
       <div className="flex flex-row gap-2 items-center justify-between mt-5 sm:hidden">
         <h3>
           <a href="" >
-            <FaFacebookSquare size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
+            <FaFacebookSquare size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
         
         <h3>
           <a href="" >
-            <FaLinkedin size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
+            <FaLinkedin size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
         <h3>
           <a href="">
-            <FaTwitterSquare size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
+            <FaTwitterSquare size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
         <h3>
           <a href="" >
-            <FaStackOverflow size={25} className="shadow-xl shadow-purple-500 transition-all duration-300" />
+            <FaStackOverflow size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
       </div>

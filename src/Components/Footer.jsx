@@ -4,29 +4,29 @@ import { FaFacebook, FaStackOverflow, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="py-10 px-5 bg-purple-950/20 backdrop-blur-xs text-purple-100">
+    <footer className="py-10 px-5 bg-orange-950/20 backdrop-blur-xs text-orange-100">
       <div className="flex flex-col max-w-7xl mx-auto">
         <div className="flex gap-5 flex-row items-center justify-between w-full">
           <div className="">
             <h2>
               <Link to={"/"} className="text-2xl font-bold flex gap-0">
-                BS<span className="text-purple-500">.</span>
+                BS<span className="text-orange-500">.</span>
               </Link>
             </h2>
           </div>
           <nav className="flex sm:flex-row gap-7">
             <h3>
-              <a href="" className="drop-shadow-2xl drop-shadow-purple-500">
+              <a href="" className="drop-shadow-2xl drop-shadow-orange-500">
                 <FaFacebook size={25} />
               </a>
             </h3>
             <h3>
-              <a href="" className="drop-shadow-2xl  drop-shadow-purple-500">
+              <a href="" className="drop-shadow-2xl  drop-shadow-orange-500">
                 <FaStackOverflow size={25} />
               </a>
             </h3>
             <h3>
-              <a href="" className="drop-shadow-2xl drop-shadow-purple-500">
+              <a href="" className="drop-shadow-2xl drop-shadow-orange-500">
                 <FaLinkedin size={25} />
               </a>
             </h3>
@@ -37,7 +37,7 @@ const Footer = () => {
           <a
             href="https://3s-soft.com/"
             target="_blank"
-            className="link text-purple-300"
+            className="link text-orange-300"
           >
             3s-Soft.
           </a>

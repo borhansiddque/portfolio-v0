@@ -9,8 +9,8 @@ const Navbar = () => {
         <NavLink
           to={"/"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 border-none ${
-              isActive ? "bg-purple-800 text-purple-200" : "bg-none"
+            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
+              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
             }`
           }
         >
@@ -21,8 +21,8 @@ const Navbar = () => {
         <NavLink
           to={"/my-works"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 border-none ${
-              isActive ? "bg-purple-800 text-purple-200" : "bg-none"
+            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
+              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
             }`
           }
         >
@@ -33,8 +33,8 @@ const Navbar = () => {
         <NavLink
           to={"/blogs"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 border-none ${
-              isActive ? "bg-purple-800 text-purple-200" : "bg-none"
+            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
+              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
             }`
           }
         >
@@ -45,8 +45,8 @@ const Navbar = () => {
         <NavLink
           to={"/contact-me"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300 border-none ${
-              isActive ? "bg-purple-800 text-purple-200" : "bg-none"
+            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
+              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
             }`
           }
         >
@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
         <h2>
           <Link to={"/"} className="text-2xl font-bold flex gap-0">
-            BS<span className="text-purple-500">.</span>
+            BS<span className="text-orange-500">.</span>
           </Link>
         </h2>
       </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
         <a
           href="/Borhan-CV.pdf"
           download
-          className="inline-block rounded-full px-4 py-2 text-sm font-semibold bg-purple-800 text-purple-200 hover:bg-purple-700 shadow-none hover:shadow-lg hover:shadow-purple-500 transition-all duration-300"
+          className="inline-block rounded-full px-4 py-2 text-sm font-semibold bg-orange-800 text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
         >
           Download CV
         </a>

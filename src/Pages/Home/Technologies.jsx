@@ -7,7 +7,7 @@ const Technologies = () => {
       <div className="">
         {/* Heading */}
         <h2 className="text-2xl md:text-3xl font-bold font-mono text-white">
-          Tech I Use Daily<span className="text-purple-500">.</span>
+          Tech I Use Daily<span className="text-orange-500">.</span>
         </h2>
 
         {/* Description */}

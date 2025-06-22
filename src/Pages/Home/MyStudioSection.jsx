@@ -2,10 +2,10 @@ import { FaCode, FaServer, FaPaintBrush } from "react-icons/fa";
 
 const MyStudioSection = () => {
   return (
-    <section className="max-w-xl mx-auto bg-purple-950/30 backdrop-blur-xs text-gray-100 rounded-xl p-5 sm:p-8 space-y-6 font-mono">
+    <section className="max-w-xl mx-auto bg-orange-950/30 backdrop-blur-xs text-gray-100 rounded-xl p-5 sm:p-8 space-y-6 font-mono">
       {/* Header */}
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2 text-purple-500 font-bold text-sm uppercase tracking-wide">
+        <div className="flex items-center gap-2 text-orange-500 font-bold text-sm uppercase tracking-wide">
           <FaCode size={24} />
           <span className="text-2xl">My Studio</span>
         </div>
@@ -13,7 +13,7 @@ const MyStudioSection = () => {
         <a
           href="/Borhan-CV.pdf"
           download
-          className="inline-block  border rounded-full px-4 py-2 text-sm font-semibold bg-purple-600 border-purple-600 transition-all duration-300"
+          className="inline-block  border rounded-full px-4 py-2 text-sm font-semibold bg-orange-600 border-orange-600 transition-all duration-300"
         >
           Download CV
         </a>
@@ -34,36 +34,36 @@ const MyStudioSection = () => {
       {/* Skills/Service Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
         {/* Web Development */}
-        <div className="bg-gray-800 rounded p-4 space-y-2 col-span-2 lg:col-span-1">
-          <div className="flex items-center gap-2 text-purple-500 font-bold text-sm uppercase tracking-wide">
+        <div className="bg-orange-800 rounded p-4 space-y-2 col-span-2 lg:col-span-1">
+          <div className="flex items-center gap-2 text-orange-100 font-bold text-sm uppercase tracking-wide">
             <FaCode />
             <span>Web Development</span>
           </div>
-          <p className="text-gray-400 text-sm leading-snug">
+          <p className="text-orange-100 text-sm leading-snug">
             Building responsive, fast, and user-friendly websites using the
             latest frontend technologies like React.js and Tailwind CSS.
           </p>
         </div>
 
         {/* Backend Basics */}
-        <div className="bg-gray-800 rounded p-4 space-y-2 col-span-2 lg:col-span-1">
-          <div className="flex items-center gap-2 text-purple-500 font-bold text-sm uppercase tracking-wide">
+        <div className="bg-orange-800 rounded p-4 space-y-2 col-span-2 lg:col-span-1">
+          <div className="flex items-center gap-2 text-orange-100 font-bold text-sm uppercase tracking-wide">
             <FaServer />
             <span>Backend Basics</span>
           </div>
-          <p className="text-gray-400 text-sm leading-snug">
+          <p className="text-orange-100 text-sm leading-snug">
             Understanding of backend with Node.js, Express.js, and MongoDB to
             support full stack application development.
           </p>
         </div>
 
         {/* UI Design */}
-        <div className="bg-gray-800 rounded p-4 space-y-2 sm:col-span-2">
-          <div className="flex items-center gap-2 text-purple-500 font-bold text-sm uppercase tracking-wide">
+        <div className="bg-orange-800 rounded p-4 space-y-2 col-span-2">
+          <div className="flex items-center gap-2 text-orange-100 font-bold text-sm uppercase tracking-wide">
             <FaPaintBrush />
             <span>UI Design</span>
           </div>
-          <p className="text-gray-400 text-sm leading-snug">
+          <p className="text-orange-100 text-sm leading-snug">
             Designing clean, consistent, and accessible interfaces that improve
             user experience and engagement.
           </p>
