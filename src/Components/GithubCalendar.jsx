@@ -3,8 +3,8 @@ import GitHubCalendar from "react-github-calendar";
 
 const GithubCalendar = () => {
   return (
-    <div className="">
-      <h1 className="text-4xl text-white mt-10 mb-5 text-center">
+    <div className="bg-orange-800/20 backdrop-blur-xs w-fit mx-auto py-5 px-10 rounded-2xl">
+      <h1 className="text-4xl text-white  mb-5 text-center">
         Contribution Graph
       </h1>
       <div className="p-5 flex items-center justify-center">
