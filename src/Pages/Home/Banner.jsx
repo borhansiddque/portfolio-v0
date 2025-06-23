@@ -67,37 +67,37 @@ const Banner = () => {
       </div>
       <div className="hidden sm:flex mt-3 justify-between">
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="">Facebook</a>
+          <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank">Facebook</a>
         </h5>
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/borhan-siddque/" target="_blank">LinkedIn</a>
         </h5>
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="">Twitter</a>
+          <a href="https://x.com/BorhanSiddque" target="_blank">Twitter</a>
         </h5>
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="">Stack Overflow</a>
+          <a href="https://stackoverflow.com/users/15088606/borhan-siddque" target="_blank">Stack Overflow</a>
         </h5>
       </div>
       <div className="flex flex-row gap-2 items-center justify-between mt-5 sm:hidden">
         <h3>
-          <a href="" >
+          <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank">
             <FaFacebookSquare size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
         
         <h3>
-          <a href="" >
+          <a href="https://www.linkedin.com/in/borhan-siddque/" target="_blank">
             <FaLinkedin size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
         <h3>
-          <a href="">
+          <a href="https://x.com/BorhanSiddque" target="_blank">
             <FaTwitterSquare size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
         <h3>
-          <a href="" >
+          <a href="https://stackoverflow.com/users/15088606/borhan-siddque" target="_blank">
             <FaStackOverflow size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
