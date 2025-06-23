@@ -85,7 +85,6 @@ const Banner = () => {
             <FaFacebookSquare size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
           </a>
         </h3>
-        
         <h3>
           <a href="https://www.linkedin.com/in/borhan-siddque/" target="_blank">
             <FaLinkedin size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
