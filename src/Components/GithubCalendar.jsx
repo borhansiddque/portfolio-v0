@@ -8,7 +8,12 @@ const GithubCalendar = () => {
         Contribution Graph
       </h1>
       <div className="p-5 flex items-center justify-center">
-        <GitHubCalendar username="borhansiddque" />
+        <GitHubCalendar
+          username="borhansiddque"
+          transformData={(contributions) =>
+            contributions.filter((day) => day.count > 0)
+          }
+        />
       </div>
     </div>
   );

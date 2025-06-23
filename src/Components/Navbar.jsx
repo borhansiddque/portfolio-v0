@@ -41,18 +41,6 @@ const Navbar = () => {
           Blogs
         </NavLink>
       </li>
-      <li>
-        <NavLink
-          to={"/contact-me"}
-          className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
-              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
-            }`
-          }
-        >
-          Contact Me
-        </NavLink>
-      </li>
     </>
   );
   return (
@@ -80,13 +68,12 @@ const Navbar = () => {
       </div>
       {/* Download CV button */}
       <div className="navbar-end">
-        <a
-          href="/Borhan-CV.pdf"
-          download
-          className="inline-block rounded-full px-4 py-2 text-sm font-semibold bg-orange-800 text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
+        <Link
+          to={'/contact-me'}
+          className="inline-block rounded-full px-4 py-2 text-sm font-bold bg-orange-800 text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
         >
-          Download CV
-        </a>
+          Contact Me
+        </Link>
       </div>
     </div>
   );

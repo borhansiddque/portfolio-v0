@@ -5,8 +5,8 @@ const AboutMe = () => {
   return (
     <div className="max-w-7xl mx-auto my-30 flex flex-col md:flex-row gap-8 md:gap-0">
       <div className="flex-1">
-        <h2 className="text-2xl">
-          About Me<span className="text-purple-300">.</span>
+        <h2 className="text-2xl md:text-3xl font-bold font-mono text-white">
+          About Me<span className="text-orange-500">.</span>
         </h2>
         <div className="text-base mt-6 space-y-4">
           <p>
