@@ -11,7 +11,7 @@ const Technologies = () => {
         </h2>
 
         {/* Description */}
-        <p className="mt-4 text-gray-400 text-base leading-relaxed font-mono">
+        <p className="mt-4 text-gray-400 text-base leading-relaxed">
           Since beginning my journey in 2023, I've explored and worked with a
           variety of technologies across the web development stack. Here are
           some of the tools and technologies I'm familiar with:

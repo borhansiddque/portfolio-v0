@@ -35,7 +35,7 @@ const AboutMe = () => {
             <h3 className="text-xl font-semibold text-white">
               🎯 Currently Exploring
             </h3>
-            <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1">
+            <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1 font-mono">
               <li>Learning Next.js and TypeScript</li>
               <li>
                 Practicing backend development using Node.js, Express, and

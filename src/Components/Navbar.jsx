@@ -58,7 +58,7 @@ const Navbar = () => {
           </ul>
         </div>
         <h2>
-          <Link to={"/"} className="text-2xl font-bold flex gap-0">
+          <Link to={"/"} className="text-3xl font-bold flex gap-0">
             BS<span className="text-orange-500">.</span>
           </Link>
         </h2>

@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 @import "tailwindcss";
 @plugin "daisyui";
 
 ::selection {
-  background-color: #ff8c00;
-  color: white;
+  background-color: #9f2d00;
+  color: #ffd6a7;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {

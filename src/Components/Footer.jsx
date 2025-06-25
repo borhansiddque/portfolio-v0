@@ -4,12 +4,12 @@ import { FaFacebook, FaStackOverflow, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="py-10 px-5 bg-orange-950/20 backdrop-blur-xs text-orange-100">
+    <footer className="pt-10 pb-5 px-5 bg-orange-950/20 backdrop-blur-xs text-orange-100">
       <div className="flex flex-col max-w-7xl mx-auto">
         <div className="flex gap-5 flex-row items-center justify-between w-full">
           <div className="">
             <h2>
-              <Link to={"/"} className="text-2xl font-bold flex gap-0">
+              <Link to={"/"} className="text-3xl font-bold flex gap-0">
                 BS<span className="text-orange-500">.</span>
               </Link>
             </h2>

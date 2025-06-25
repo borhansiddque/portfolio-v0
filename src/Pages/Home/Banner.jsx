@@ -14,10 +14,10 @@ const Banner = () => {
           url('${bannerImage}')`,
         }}
       >
-        <div className="mb-10 md:mb-20">
+        <div className="mb-10 md:mb-14">
           <div className="flex items-center gap-2">
             <FaReact size={24} />
-            <h4 className="uppercase">About Me</h4>
+            <h4 className="text-2xl uppercase">About Me</h4>
           </div>
           <h2 className="text-xl sm:text-3xl mt-8">
             {" "}
@@ -30,11 +30,11 @@ const Banner = () => {
         </div>
 
         <div className="bg-black/50 px-2 py-5 sm:px-5 sm:py-10 rounded-lg backdrop-blur-xs text-white sm:max-w-xl space-y-5">
-          <div className="flex items-center gap-2 ">
+          <div className="flex items-center gap-2">
             <TbTargetArrow size={25} />
-            <h4 className="uppercase text-sm">Why I Do What I Do</h4>
+            <h4 className="uppercase text-lg">Why I Do What I Do</h4>
           </div>
-          <p className="mt-2 sm:text-lg">
+          <p className="mt-2 sm:text-base leading-relaxed">
             I believe that technology, when used with purpose, has the power to
             transform lives. I code not just to build websites, but to create
             solutions that are meaningful, accessible, and impactful. Every line
@@ -44,15 +44,15 @@ const Banner = () => {
           <div className="space-y-1">
             <div className="flex gap-2">
               <p>💡</p>
-              <p>Passion for coding and problem-solving</p>
+              <code>Passion for coding and problem-solving</code>
             </div>
             <div className="flex gap-2">
               <p>🚀</p>
-              <p>Always learning and improving</p>
+              <code>Always learning and improving</code>
             </div>
             <div className="flex gap-2">
               <p>🌍</p>
-              <p>Building apps that make a difference</p>
+              <code>Building apps that make a difference</code>
             </div>
           </div>
         </div>

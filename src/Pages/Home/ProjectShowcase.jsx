@@ -7,7 +7,7 @@ const projects = [
       "An online platform for students to connect with expert tutors, schedule sessions, and track learning progress in real-time.",
     tech: ["React", "Firebase", "TailwindCSS", "Node JS", "Express JS", "MongoDB"],
     image: "https://img.3s-soft.com/uploads/tutor.png",
-    github: "https://github.com/borhansiddque/parcel-delivery",
+    github: "https://github.com/borhansiddque/tutor-lingo-app",
     live: "https://tutor-lingo.web.app/",
   },
   {
@@ -16,6 +16,7 @@ const projects = [
       "A modern recipe sharing platform with user login, search filtering, and favorites.",
     tech: ["Vite", "React", "TailwindCSS", "Firebase", "Node JS", "Express JS", "MongoDB"],
     image: "https://img.3s-soft.com/uploads/recipe.png",
+    github: "https://github.com/borhansiddque/recipe-haven-app",
     live: "https://recipe-haven-app-a09fe.web.app/",
   },
 ];

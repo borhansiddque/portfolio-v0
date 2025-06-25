@@ -10,31 +10,34 @@ const ComingSoon = () => {
           <FaClock />
         </div>
 
-
         {/* Title */}
         <h3 className="text-3xl sm:text-4xl font-bold">
           Coming Soon<span className="text-orange-500">.</span>
         </h3>
 
         <Countdown targetDate="2025-09-01T00:00:00" />
-        
+
         {/* Description */}
-        <p className="text-gray-200 text-base">
-          I'm currently working on something awesome. Stay tuned for the launch of my new site — it's going to be worth the wait!
+        <p className="text-gray-200 text-base text-center font-mono">
+          I'm currently working on something awesome. Stay tuned for the launch
+          of my new site — it's going to be worth the wait!
         </p>
 
         {/* Get Notified Button (no email field) */}
-        <a
-          href="https://github.com/borhansiddque"
-          target="_blank"
-          className="inline-block rounded-lg px-4 py-2 min-w-3xs text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
-        >
-          Check My Github
-        </a>
+        <div className="mt-6">
+          <a
+            href="https://github.com/borhansiddque"
+            target="_blank"
+            className="inline-block rounded-lg px-4 py-2 min-w-3xs text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
+          >
+            Check My Github
+          </a>
+        </div>
 
         {/* Footer note */}
         <p className="text-xs text-gray-200 mt-4">
-          &copy; {new Date().getFullYear()} Borhan Siddique. All rights reserved.
+          &copy; {new Date().getFullYear()} Borhan Siddique. All rights
+          reserved.
         </p>
       </div>
     </div>
