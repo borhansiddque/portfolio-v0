@@ -25,15 +25,7 @@ const Banner = () => {
           </h2>
           <p className="mt-4 md:hidden">I'm a MERN stack developer focused on building modern, responsive, and user-friendly web applications. I write clean, maintainable code and follow smart architectural patterns to create seamless digital experiences that are both functional and visually engaging.</p>
           <p className="sm:text-lg lg:max-w-3/4 mt-4 relative hidden md:block">
-            I'm a passionate Full Stack Developer specializing in the MERN stack
-            (MongoDB, Express.js, React, and Node.js). I thrive on crafting
-            modern, responsive, and scalable web applications that not only look
-            great but also deliver smooth and intuitive user experiences. My
-            focus is on writing clean, efficient code and solving real-world
-            problems through innovative digital solutions. Whether it's building
-            from scratch or improving existing systems, I bring creativity,
-            precision, and a strong problem-solving mindset to every project I
-            work on.
+            I'm a passionate Frontend Developer with a strong focus on building modern, responsive, and user-centric web applications using React. While my core expertise lies in frontend development, I also have working knowledge of backend technologies in the MERN stack (MongoDB, Express.js, Node.js). I thrive on writing clean, efficient code and solving real-world problems through thoughtful, scalable solutions. Whether I'm building a project from scratch or enhancing an existing system, I bring creativity, attention to detail, and a problem-solving mindset to every task.
           </p>
         </div>
 

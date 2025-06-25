@@ -70,7 +70,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <Link
           to={'/contact-me'}
-          className="inline-block rounded-full px-4 py-2 text-sm font-bold bg-orange-800 text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
+          className="inline-block rounded-full px-4 py-2 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
         >
           Contact Me
         </Link>

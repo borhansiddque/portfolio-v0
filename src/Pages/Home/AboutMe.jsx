@@ -1,5 +1,6 @@
 import React from "react";
 import MyStudioSection from "./MyStudioSection";
+import { Link } from "react-router";
 
 const AboutMe = () => {
   return (
@@ -11,22 +12,39 @@ const AboutMe = () => {
         <div className="text-base mt-6 space-y-4">
           <p>
             I began my web development journey in 2023 with a strong passion for
-            creating modern and user-friendly websites. I started by learning
-            the core technologies — HTML, CSS, and JavaScript — and built my
-            first project using those basics.
+            creating modern, user-friendly websites. Starting with the
+            fundamentals—HTML, CSS, and JavaScript—I built my first projects
+            from the ground up.
           </p>
           <p>
-            As I progressed, I specialized in React.js for building dynamic and
-            responsive user interfaces. I also have foundational knowledge of
-            the backend using the MERN stack — working with MongoDB, Express.js,
-            and Node.js — which helps me understand and contribute to full stack
-            projects.
+            As I advanced, I specialized in React.js to develop dynamic and
+            responsive user interfaces. Along the way, I also gained
+            foundational backend knowledge using the MERN stack (MongoDB,
+            Express.js, Node.js), enabling me to contribute effectively to full
+            stack projects.
           </p>
           <p>
-            With 2 years of experience, I focus on crafting clean, efficient
-            frontend code while continuously improving my backend skills to
-            build complete SaaS applications.
+            With 2 years of hands-on experience, I now focus on writing clean,
+            efficient frontend code while continuously sharpening my backend
+            skills to build complete and scalable SaaS applications.
           </p>
+        </div>
+        <div className="mt-8 space-y-6">
+          {/* Currently Exploring Section */}
+          <div>
+            <h3 className="text-xl font-semibold text-white">
+              🎯 Currently Exploring
+            </h3>
+            <ul className="list-disc list-inside text-gray-300 mt-2 space-y-1">
+              <li>Learning Next.js and TypeScript</li>
+              <li>
+                Practicing backend development using Node.js, Express, and
+                MongoDB
+              </li>
+              <li>Working on SaaS-style app architectures</li>
+              <li>Improving design skills for better UX/UI</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="flex-1">

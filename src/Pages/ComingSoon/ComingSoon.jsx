@@ -12,7 +12,7 @@ const ComingSoon = () => {
 
 
         {/* Title */}
-        <h3 className="text-4xl font-bold">
+        <h3 className="text-3xl sm:text-4xl font-bold">
           Coming Soon<span className="text-orange-500">.</span>
         </h3>
 
@@ -27,7 +27,7 @@ const ComingSoon = () => {
         <a
           href="https://github.com/borhansiddque"
           target="_blank"
-          className="px-6 md:px-8 py-2 text-base font-semibold rounded-lg bg-orange-800 text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none"
+          className="inline-block rounded-lg px-4 py-2 min-w-3xs text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300"
         >
           Check My Github
         </a>

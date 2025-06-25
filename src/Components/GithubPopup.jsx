@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 
 const GithubPopup = () => {
   const [show, setShow] = useState(true);
-  const [countdown, setCountdown] = useState(10);
+  const [countdown, setCountdown] = useState(100);
   useEffect(() => {
     if (countdown === 0) {
       setShow(false);
@@ -70,7 +70,7 @@ const GithubPopup = () => {
             href="https://github.com/borhansiddque"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-orange-800 hover:bg-orange-600 text-white px-6 py-2 rounded-full font-semibold shadow-none hover:shadow-lg hover:shadow-orange-400 transition-all duration-300 w-full"
+            className="inline-block rounded-full px-4 py-2 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 w-full my-2"
           >
             Follow on GitHub
           </a>
