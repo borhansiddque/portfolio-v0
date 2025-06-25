@@ -2,7 +2,7 @@ import { FaCode, FaServer, FaPaintBrush } from "react-icons/fa";
 
 const MyStudioSection = () => {
   return (
-    <section className="md:max-w-xl mx-auto bg-orange-950/20 backdrop-blur-xs text-gray-100 rounded-xl p-5 sm:p-8 space-y-6 font-mono">
+    <section className="lg:max-w-xl mx-auto bg-orange-950/20 backdrop-blur-xs text-gray-100 rounded-xl p-5 sm:p-8 space-y-6 font-mono">
       {/* Header */}
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2 text-orange-500 font-bold text-sm uppercase tracking-wide">
