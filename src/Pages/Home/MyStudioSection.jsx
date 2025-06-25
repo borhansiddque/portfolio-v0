@@ -13,7 +13,7 @@ const MyStudioSection = () => {
         <a
           href="/Borhan-CV.pdf"
           download
-          className="inline-block  border rounded-full px-4 py-2 text-sm font-semibold bg-orange-600 border-orange-600 transition-all duration-300"
+          className="inline-block rounded-full px-4 py-2 text-sm font-semibold bg-orange-600 hover:bg-orange-700 transition-all duration-300"
         >
           Download CV
         </a>
