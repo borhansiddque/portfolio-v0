@@ -4,20 +4,20 @@ import TechButton from "./TechButton";
 const Technologies = () => {
   return (
     <div className="max-w-7xl mx-auto mb-30">
-      <div className="">
+      <div className="text-center">
         {/* Heading */}
-        <h2 className="text-2xl md:text-3xl font-bold font-mono text-white">
+        <h2 className="text-3xl sm:text-4xl font-bold text-white">
           Tech I Use Daily<span className="text-orange-500">.</span>
         </h2>
 
         {/* Description */}
-        <p className="mt-4 text-gray-400 text-base leading-relaxed">
+        <p className="mt-4 text-gray-400 text-base leading-relaxed md:w-3/4 mx-auto">
           Since beginning my journey in 2023, I've explored and worked with a
           variety of technologies across the web development stack. Here are
           some of the tools and technologies I'm familiar with:
         </p>
       </div>
-      <div className="mt-8 flex flex-wrap gap-5">
+      <div className="mt-8 flex flex-wrap gap-5 items-center justify-center">
         <TechButton icon={"https://img.icons8.com/?size=256&id=20909&format=png"} title={"HTML"} link={"https://www.w3schools.com/html/"} />
         <TechButton icon={"https://img.icons8.com/?size=256&id=7gdY5qNXaKC0&format=png"} title={"CSS"} link={"https://www.w3schools.com/css/"} />
         <TechButton icon={"https://i.ibb.co.com/Xk2BNVRn/download.png"} title={"Tailwind CSS"} link={"https://tailwindcss.com/"} />
