@@ -11,7 +11,7 @@ const ErrorPage = () => {
       </p>
       <Link
         to="/"
-        className="mt-6 inline-flex items-center gap-2 text-white bg-orange-600 hover:bg-orange-700 px-4 py-2 rounded-lg transition-colors duration-300"
+        className="mt-6 font-semibold inline-flex items-center gap-2 text-orange-200 bg-orange-700 hover:bg-orange-600 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 px-4 py-2 rounded-lg transition-all duration-300"
       >
         <FaArrowLeft />
         Back to Home

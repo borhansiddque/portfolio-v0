@@ -39,7 +39,7 @@ const Footer = () => {
             target="_blank"
             className="link text-orange-300"
           >
-            3s-Soft.
+            Borhan Siddque.
           </a>
         </p>
       </div>

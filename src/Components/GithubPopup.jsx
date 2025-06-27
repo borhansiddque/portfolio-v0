@@ -5,20 +5,31 @@ import { CiMail } from "react-icons/ci";
 import toast from "react-hot-toast";
 
 const GithubPopup = () => {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const [countdown, setCountdown] = useState(10);
+
   useEffect(() => {
-    if (countdown === 0) {
+    const hasSeenPopup = sessionStorage.getItem("hasSeenGithubPopup");
+
+    if (!hasSeenPopup) {
+      setShow(true);
+      sessionStorage.setItem("hasSeenGithubPopup", "true");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (show && countdown === 0) {
       setShow(false);
-      return;
     }
 
-    const timer = setTimeout(() => {
-      setCountdown((prev) => prev - 1);
-    }, 1000);
+    if (show && countdown > 0) {
+      const timer = setTimeout(() => {
+        setCountdown((prev) => prev - 1);
+      }, 1000);
 
-    return () => clearTimeout(timer);
-  }, [countdown]);
+      return () => clearTimeout(timer);
+    }
+  }, [countdown, show]);
 
   if (!show) {
     return null;
@@ -41,7 +52,7 @@ const GithubPopup = () => {
             className="inline-block bg-[#2a2a2a] p-2 rounded cursor-pointer scale-95 hover:scale-110 shadow-none hover:shadow-lg hover:shadow-orange-500 border-none transition-all duration-300"
             onClick={handleCopyEmail}
           >
-            <CiMail size={25} className="" />
+            <CiMail size={25} />
           </div>
           <button
             onClick={() => setShow(false)}
@@ -70,7 +81,7 @@ const GithubPopup = () => {
             href="https://github.com/borhansiddque"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full px-4 py-2 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 w-full my-2"
+            className="inline-block rounded-full px-4 py-2 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300 w-full my-2"
           >
             Follow on GitHub
           </a>

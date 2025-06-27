@@ -79,7 +79,7 @@ const ContactMe = () => {
 
         <button
           type="submit"
-          className="inline-block rounded-full px-5 py-3 font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 cursor-pointer"
+          className="inline-block rounded-full px-5 py-3 font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300 cursor-pointer"
         >
           Send Message
         </button>
