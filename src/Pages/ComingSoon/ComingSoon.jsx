@@ -33,12 +33,6 @@ const ComingSoon = () => {
             Check My Github
           </a>
         </div>
-
-        {/* Footer note */}
-        <p className="text-xs text-gray-200 mt-4">
-          &copy; {new Date().getFullYear()} Borhan Siddique. All rights
-          reserved.
-        </p>
       </div>
     </div>
   );

@@ -42,6 +42,12 @@ const Footer = () => {
             Borhan Siddque.
           </a>
         </p>
+        
+        {/* Footer note */}
+        <p className="text-xs text-gray-400 mt-2 text-center">
+          &copy; {new Date().getFullYear()} Borhan Siddque. All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );
