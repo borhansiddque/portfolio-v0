@@ -1,4 +1,6 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
+import { Link } from "react-router";
 
 const projects = [
   {
@@ -103,6 +105,13 @@ const ProjectShowcase = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="text-center mt-14">
+        <p className="text-sm text-gray-400 mb-2">Want to see more?</p>
+        <Link to={''} className="flex items-center gap-2 w-fit mx-auto rounded-lg px-5 py-3 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300">
+          View All Projects
+          <FaArrowRight></FaArrowRight>
+        </Link>
       </div>
     </section>
   );
