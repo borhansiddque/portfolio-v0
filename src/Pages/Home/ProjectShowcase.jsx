@@ -36,6 +36,20 @@ const projects = [
     github: "https://github.com/borhansiddque/recipe-haven-app",
     live: "https://recipe-haven-app-a09fe.web.app/",
   },
+  {
+    title: "App Gallery",
+    description:
+      "App Gallery is an interactive web platform where users can explore and install apps. Only installed apps can be reviewed, ensuring authentic user feedback. With a clean, responsive interface and organized browsing, it provides a smooth experience for app discovery.",
+    tech: [
+      "React",
+      "Firebase",
+      "TailwindCSS",
+    ],
+    mainFeature: ["User "],
+    image: "https://img.3s-soft.com/uploads/app-gallery.png",
+    github: "https://github.com/borhansiddque/app-gallery-app",
+    live: "https://app-gallery-f7b8e.web.app/",
+  },
 ];
 
 const ProjectShowcase = () => {
