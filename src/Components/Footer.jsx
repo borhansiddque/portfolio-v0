@@ -16,17 +16,29 @@ const Footer = () => {
           </div>
           <nav className="flex sm:flex-row gap-7">
             <h3>
-              <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank" className="drop-shadow-2xl drop-shadow-orange-500">
+              <a
+                href="https://www.facebook.com/borhan.siddque.19/"
+                target="_blank"
+                className="drop-shadow-2xl drop-shadow-orange-500"
+              >
                 <FaFacebook size={25} />
               </a>
             </h3>
             <h3>
-              <a href="https://stackoverflow.com/users/15088606/borhan-siddque" target="_blank" className="drop-shadow-2xl  drop-shadow-orange-500">
+              <a
+                href="https://stackoverflow.com/users/15088606/borhan-siddque"
+                target="_blank"
+                className="drop-shadow-2xl  drop-shadow-orange-500"
+              >
                 <FaStackOverflow size={25} />
               </a>
             </h3>
             <h3>
-              <a href="https://www.linkedin.com/in/borhan-siddque/" target="_blank" className="drop-shadow-2xl drop-shadow-orange-500">
+              <a
+                href="https://www.linkedin.com/in/borhan-siddque/"
+                target="_blank"
+                className="drop-shadow-2xl drop-shadow-orange-500"
+              >
                 <FaLinkedin size={25} />
               </a>
             </h3>
@@ -42,11 +54,10 @@ const Footer = () => {
             Borhan Siddque.
           </a>
         </p>
-        
+
         {/* Footer note */}
         <p className="text-xs text-gray-400 mt-2 text-center">
-          &copy; {new Date().getFullYear()} Borhan Siddque. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Borhan Siddque. All rights reserved.
         </p>
       </div>
     </footer>

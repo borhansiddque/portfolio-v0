@@ -69,7 +69,7 @@ const Navbar = () => {
       {/* Download CV button */}
       <div className="navbar-end">
         <Link
-          to={'/contact-me'}
+          to={"/contact-me"}
           className="inline-block rounded-full px-4 py-2 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300"
         >
           Contact Me

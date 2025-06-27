@@ -1,6 +1,12 @@
 import React from "react";
 import bannerImage from "../../assets/git-profile.jpg";
-import { FaFacebookSquare, FaLinkedin, FaReact, FaTwitterSquare, FaStackOverflow } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaLinkedin,
+  FaReact,
+  FaTwitterSquare,
+  FaStackOverflow,
+} from "react-icons/fa";
 import { TbTargetArrow } from "react-icons/tb";
 
 const Banner = () => {
@@ -23,9 +29,22 @@ const Banner = () => {
             {" "}
             <span className="text-orange-300">Hey,</span> I'm Borhan
           </h2>
-          <p className="mt-4 md:hidden">I'm a MERN stack developer focused on building modern, responsive, and user-friendly web applications. I write clean, maintainable code and follow smart architectural patterns to create seamless digital experiences that are both functional and visually engaging.</p>
+          <p className="mt-4 md:hidden">
+            I'm a MERN stack developer focused on building modern, responsive,
+            and user-friendly web applications. I write clean, maintainable code
+            and follow smart architectural patterns to create seamless digital
+            experiences that are both functional and visually engaging.
+          </p>
           <p className="sm:text-lg lg:max-w-3/4 mt-4 relative hidden md:block">
-            I'm a passionate Frontend Developer with a strong focus on building modern, responsive, and user-centric web applications using React. While my core expertise lies in frontend development, I also have working knowledge of backend technologies in the MERN stack (MongoDB, Express.js, Node.js). I thrive on writing clean, efficient code and solving real-world problems through thoughtful, scalable solutions. Whether I'm building a project from scratch or enhancing an existing system, I bring creativity, attention to detail, and a problem-solving mindset to every task.
+            I'm a passionate Frontend Developer with a strong focus on building
+            modern, responsive, and user-centric web applications using React.
+            While my core expertise lies in frontend development, I also have
+            working knowledge of backend technologies in the MERN stack
+            (MongoDB, Express.js, Node.js). I thrive on writing clean, efficient
+            code and solving real-world problems through thoughtful, scalable
+            solutions. Whether I'm building a project from scratch or enhancing
+            an existing system, I bring creativity, attention to detail, and a
+            problem-solving mindset to every task.
           </p>
         </div>
 
@@ -59,37 +78,63 @@ const Banner = () => {
       </div>
       <div className="hidden sm:flex mt-3 justify-between">
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank">Facebook</a>
+          <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank">
+            Facebook
+          </a>
         </h5>
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="https://www.linkedin.com/in/borhan-siddque/" target="_blank">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/borhan-siddque/" target="_blank">
+            LinkedIn
+          </a>
         </h5>
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="https://x.com/BorhanSiddque" target="_blank">Twitter</a>
+          <a href="https://x.com/BorhanSiddque" target="_blank">
+            Twitter
+          </a>
         </h5>
         <h5 className="drop-shadow-xl drop-shadow-orange-500">
-          <a href="https://stackoverflow.com/users/15088606/borhan-siddque" target="_blank">Stack Overflow</a>
+          <a
+            href="https://stackoverflow.com/users/15088606/borhan-siddque"
+            target="_blank"
+          >
+            Stack Overflow
+          </a>
         </h5>
       </div>
       <div className="flex flex-row gap-2 items-center justify-between mt-5 sm:hidden">
         <h3>
           <a href="https://www.facebook.com/borhan.siddque.19/" target="_blank">
-            <FaFacebookSquare size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
+            <FaFacebookSquare
+              size={25}
+              className="shadow-xl shadow-orange-500 transition-all duration-300"
+            />
           </a>
         </h3>
         <h3>
           <a href="https://www.linkedin.com/in/borhan-siddque/" target="_blank">
-            <FaLinkedin size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
+            <FaLinkedin
+              size={25}
+              className="shadow-xl shadow-orange-500 transition-all duration-300"
+            />
           </a>
         </h3>
         <h3>
           <a href="https://x.com/BorhanSiddque" target="_blank">
-            <FaTwitterSquare size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
+            <FaTwitterSquare
+              size={25}
+              className="shadow-xl shadow-orange-500 transition-all duration-300"
+            />
           </a>
         </h3>
         <h3>
-          <a href="https://stackoverflow.com/users/15088606/borhan-siddque" target="_blank">
-            <FaStackOverflow size={25} className="shadow-xl shadow-orange-500 transition-all duration-300" />
+          <a
+            href="https://stackoverflow.com/users/15088606/borhan-siddque"
+            target="_blank"
+          >
+            <FaStackOverflow
+              size={25}
+              className="shadow-xl shadow-orange-500 transition-all duration-300"
+            />
           </a>
         </h3>
       </div>
