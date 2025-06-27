@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
+import { CiLocationOn, CiMail, CiPhone } from "react-icons/ci";
 
 const ContactMe = () => {
   const form = useRef();
@@ -36,15 +37,14 @@ const ContactMe = () => {
       .catch((error) => {
         toast.error("Failed to send message. Please try again later.");
         console.log(error.message);
-        
       });
   };
   return (
     <div className="min-h-[70vh] max-w-7xl mx-auto my-14 sm:mt-20 flex flex-col">
       <div className="text-center">
-        <h3 className="text-3xl font-bold">
+        <h2 className="text-3xl sm:text-4xl font-bold text-white">
           Get In Touch<span className="text-orange-500">.</span>
-        </h3>
+        </h2>
         <p className="mt-2">
           Have a project, collaboration, or just want to say hi? Fill out the
           form below — I'll get back to you as soon as I can!
@@ -79,7 +79,7 @@ const ContactMe = () => {
 
         <button
           type="submit"
-          className="inline-block rounded-full px-6 py-3 text-sm font-semibold bg-orange-800 text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 cursor-pointer"
+          className="inline-block rounded-full px-5 py-3 font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 cursor-pointer"
         >
           Send Message
         </button>
