@@ -23,7 +23,7 @@ const Technologies = () => {
         <TechButton icon={"https://i.ibb.co.com/Xk2BNVRn/download.png"} title={"Tailwind CSS"} link={"https://tailwindcss.com/"} />
         <TechButton icon={"https://i.ibb.co.com/1fKcg32b/download.png"} title={"Figma"} link={"https://www.figma.com/"} />
         <TechButton icon={"https://i.ibb.co.com/qF7yJwSd/download.png"} title={"JavaScript"} link={"https://learnjavascript.online/"} />
-        <TechButton icon={"https://i.ibb.co.com/c9jTvmt/download.png"} title={"TypwScript"} link={"https://www.typescriptlang.org/"} />
+        {/* <TechButton icon={"https://i.ibb.co.com/c9jTvmt/download.png"} title={"TypwScript"} link={"https://www.typescriptlang.org/"} /> */}
         <TechButton icon={"https://img.icons8.com/?size=256&id=NfbyHexzVEDk&format=png"} title={"React JS"} link={"https://react.dev/"} />
         <TechButton icon={"https://img.icons8.com/?size=256&id=62452&format=png"} title={"Firebase"} link={"https://firebase.google.com/"} />
         <TechButton icon={"https://i.ibb.co.com/d1Py8nX/download.png"} title={"Node JS"} link={"https://nodejs.org/en"} />

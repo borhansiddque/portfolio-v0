@@ -4,8 +4,15 @@ const projects = [
   {
     title: "Tutor Lingo",
     description:
-      "An online platform for students to connect with expert tutors, schedule sessions, and track learning progress in real-time.",
-    tech: ["React", "Firebase", "TailwindCSS", "Node JS", "Express JS", "MongoDB"],
+      "Tutor Lingo is a web application that allows users to create and share tutorials, as well as book tutorials from others. The platform includes user authentication, tutorial management, and a real-time booking system — making learning and teaching easier than ever.",
+    tech: [
+      "React",
+      "Firebase",
+      "TailwindCSS",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+    ],
     image: "https://img.3s-soft.com/uploads/tutor.png",
     github: "https://github.com/borhansiddque/tutor-lingo-app",
     live: "https://tutor-lingo.web.app/",
@@ -13,8 +20,16 @@ const projects = [
   {
     title: "Recipe Haven",
     description:
-      "A modern recipe sharing platform with user login, search filtering, and favorites.",
-    tech: ["Vite", "React", "TailwindCSS", "Firebase", "Node JS", "Express JS", "MongoDB"],
+      "Recipe Haven is a recipe sharing platform where users can add their own recipes, browse recipes from others, and manage the ones they've submitted. It includes user authentication and a clean, responsive design that makes exploring and sharing recipes simple and enjoyable.",
+    tech: [
+      "React",
+      "Firebase",
+      "TailwindCSS",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+    ],
+    mainFeature: ["User "],
     image: "https://img.3s-soft.com/uploads/recipe.png",
     github: "https://github.com/borhansiddque/recipe-haven-app",
     live: "https://recipe-haven-app-a09fe.web.app/",
@@ -64,22 +79,26 @@ const ProjectShowcase = () => {
               </div>
 
               <div className="flex items-center gap-4">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-gray-400 hover:text-white transition"
-                >
-                  <FaGithub size={20} />
-                </a>
-                <a
-                  href={project.live}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-gray-400 hover:text-white transition"
-                >
-                  <FaExternalLinkAlt size={18} />
-                </a>
+                <div className="btn bg-orange-700 text-white">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className=""
+                  >
+                    <FaGithub size={20} />
+                  </a>
+                </div>
+                <div className="btn bg-orange-700 text-white">
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noreferrer"
+                    className=""
+                  >
+                    <FaExternalLinkAlt size={18} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
