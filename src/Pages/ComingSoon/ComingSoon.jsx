@@ -4,7 +4,7 @@ import Countdown from "./Countdown";
 const ComingSoon = () => {
   return (
     <div className="min-h-[80vh] flex items-center justify-center  text-white px-4">
-      <div className="text-center max-w-lg space-y-6 bg-orange-400/30 p-4 rounded-lg backdrop-blur-xs">
+      <div className="text-center max-w-lg space-y-6  p-4 rounded-lg backdrop-blur-xs">
         {/* Icon */}
         <div className="text-orange-600 text-5xl flex items-center justify-center">
           <FaClock />
