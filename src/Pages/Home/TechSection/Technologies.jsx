@@ -34,11 +34,6 @@ const Technologies = () => {
           link={"https://tailwindcss.com/"}
         />
         <TechButton
-          icon={"https://i.ibb.co.com/1fKcg32b/download.png"}
-          title={"Figma"}
-          link={"https://www.figma.com/"}
-        />
-        <TechButton
           icon={"https://i.ibb.co.com/qF7yJwSd/download.png"}
           title={"JavaScript"}
           link={"https://learnjavascript.online/"}
@@ -88,6 +83,16 @@ const Technologies = () => {
           icon={"https://img.icons8.com/?size=80&id=EPbEfEa7o8CB&format=png"}
           title={"PostMan"}
           link={"https://www.postman.com/"}
+        />
+        <TechButton
+          icon={"https://i.ibb.co.com/1fKcg32b/download.png"}
+          title={"Figma"}
+          link={"https://www.figma.com/"}
+        />
+        <TechButton
+          icon={"https://img.icons8.com/?size=256&id=EZQdGLNeo7JI&format=png"}
+          title={"Canva"}
+          link={"https://www.canva.com/"}
         />
       </div>
     </div>
