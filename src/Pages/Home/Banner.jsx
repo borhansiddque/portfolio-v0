@@ -8,6 +8,7 @@ import {
   FaStackOverflow,
 } from "react-icons/fa";
 import { TbTargetArrow } from "react-icons/tb";
+import AvailableStatus from "./AvailableStatus";
 
 const Banner = () => {
   return (
@@ -21,9 +22,12 @@ const Banner = () => {
         }}
       >
         <div className="mb-10 md:mb-14">
-          <div className="flex items-center gap-2">
-            <FaReact size={24} />
-            <h4 className="text-2xl uppercase">About Me</h4>
+          <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex items-center gap-2">
+              <FaReact size={24} />
+              <h4 className="text-2xl uppercase">About Me</h4>
+            </div>
+            <AvailableStatus></AvailableStatus>
           </div>
           <h2 className="text-xl sm:text-3xl mt-8">
             {" "}
