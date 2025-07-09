@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Tutor Lingo",
+    "description": "Tutor Lingo is a web application that allows users to create and share tutorials, as well as book tutorials from others. The platform includes user authentication, tutorial management, and a real-time booking system — making learning and teaching easier than ever.",
+    "tech": [
+      "React",
+      "Firebase",
+      "TailwindCSS",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    "image": "https://img.3s-soft.com/uploads/tutor.png",
+    "github": "https://github.com/borhansiddque/tutor-lingo-app",
+    "live": "https://tutor-lingo.web.app/"
+  },
+  {
+    "title": "Recipe Haven",
+    "description": "Recipe Haven is a recipe sharing platform where users can add their own recipes, browse recipes from others, and manage the ones they've submitted. It includes user authentication and a clean, responsive design that makes exploring and sharing recipes simple and enjoyable.",
+    "tech": [
+      "React",
+      "Firebase",
+      "TailwindCSS",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    "mainFeature": ["User "],
+    "image": "https://img.3s-soft.com/uploads/recipe.png",
+    "github": "https://github.com/borhansiddque/recipe-haven-app",
+    "live": "https://recipe-haven-app-a09fe.web.app/"
+  },
+  {
+    "title": "App Gallery",
+    "description": "App Gallery is an interactive web platform where users can explore and install apps. Only installed apps can be reviewed, ensuring authentic user feedback. With a clean, responsive interface and organized browsing, it provides a smooth experience for app discovery.",
+    "tech": ["React", "Firebase", "TailwindCSS"],
+    "image": "https://img.3s-soft.com/uploads/app-gallery.png",
+    "github": "https://github.com/borhansiddque/app-gallery-app",
+    "live": "https://app-gallery-f7b8e.web.app/"
+  },
+  {
+    "title": "Blood Bank BD",
+    "description": "Blood Bank BD is a full-stack blood bank web application where users can register as donors, search for blood groups, and manage donation history. It includes secure authentication via Firebase, a responsive user interface, and a powerful backend built with Node.js, Express.js, and MongoDB. Donors can upload their profile, set their last donation date, and be available for future requests.",
+    "tech": [
+      "React",
+      "React Router",
+      "TailwindCSS",
+      "Firebase",
+      "Node JS",
+      "Express JS",
+      "MongoDB"
+    ],
+    "image": "https://img.3s-soft.com/uploads/bloodbank.png",
+    "github": "https://github.com/3s-Soft/bloodbank",
+    "live": "https://lifedrop.web.app/"
+  }
+]

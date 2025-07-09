@@ -65,7 +65,7 @@ const ContactMe = () => {
             </div>
             <div className="flex items-center gap-3 text-base">
               <CiLocationOn size={25} className="text-orange-200"></CiLocationOn>
-              Mirsarai, Chattogram, Bangladesh
+              Chattogram, Bangladesh
             </div>
           </div>
         </div>

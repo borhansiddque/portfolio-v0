@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import { FaFacebook, FaStackOverflow, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaStackOverflow, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,6 +15,15 @@ const Footer = () => {
             </h2>
           </div>
           <nav className="flex sm:flex-row gap-7">
+            <h3>
+              <a
+                href="https://github.com/borhansiddque"
+                target="_blank"
+                className="drop-shadow-2xl drop-shadow-orange-500"
+              >
+                <FaGithub size={25} />
+              </a>
+            </h3>
             <h3>
               <a
                 href="https://www.facebook.com/borhan.siddque.19/"

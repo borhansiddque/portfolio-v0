@@ -25,13 +25,13 @@ const Banner = () => {
           <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-2">
               <FaReact size={24} />
-              <h4 className="text-2xl uppercase">About Me</h4>
+              <h4 className="text-xl uppercase">Junior Frontend Developer</h4>
             </div>
             <AvailableStatus></AvailableStatus>
           </div>
           <h2 className="text-xl sm:text-3xl mt-8">
             {" "}
-            <span className="text-orange-300">Hey,</span> I'm Borhan
+            <span className="text-orange-300">Hey,</span> I'm Borhan Siddque
           </h2>
           <p className="mt-4 md:hidden">
             I'm a MERN stack developer focused on building modern, responsive,
