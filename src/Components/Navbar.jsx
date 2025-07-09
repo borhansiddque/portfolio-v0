@@ -9,8 +9,8 @@ const Navbar = () => {
         <NavLink
           to={"/"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
-              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
+            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
+              isActive ? "shadow-lg bg-orange-700 text-orange-200 shadow-orange-500" : "bg-none"
             }`
           }
         >
@@ -21,8 +21,8 @@ const Navbar = () => {
         <NavLink
           to={"/my-works"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
-              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
+            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
+              isActive ? "shadow-lg bg-orange-700 text-orange-200 shadow-orange-500" : "bg-none"
             }`
           }
         >
@@ -33,8 +33,8 @@ const Navbar = () => {
         <NavLink
           to={"/blogs"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 shadow-none hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
-              isActive ? "bg-orange-800 text-orange-200" : "bg-none"
+            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 hover:shadow-lg hover:shadow-orange-500 transition-all duration-300 border-none ${
+              isActive ? "shadow-lg bg-orange-700 text-orange-200 shadow-orange-500" : "bg-none"
             }`
           }
         >
@@ -44,7 +44,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar max-w-7xl mx-auto">
+    <div className="bg-black/50 backdrop-blur-lg sticky top-0 z-50">
+      <div className="navbar max-w-7xl mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -75,6 +76,7 @@ const Navbar = () => {
           Contact Me
         </Link>
       </div>
+    </div>
     </div>
   );
 };
