@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <div className="max-w-7xl mx-auto my-30 flex flex-col lg:flex-row gap-8 lg:gap-0">
       <div className="flex-1">
-        <h2 className="text-2xl md:text-3xl font-bold font-mono text-white">
+        <h2 className="text-3xl sm:text-4xl font-bold text-white">
           About Me<span className="text-orange-500">.</span>
         </h2>
         <div className="text-base mt-6 space-y-4">
