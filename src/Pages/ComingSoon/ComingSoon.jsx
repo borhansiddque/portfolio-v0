@@ -1,4 +1,4 @@
-import { FaClock } from "react-icons/fa";
+import { FaClock, FaGithub } from "react-icons/fa";
 import Countdown from "./Countdown";
 
 const ComingSoon = () => {
@@ -28,8 +28,9 @@ const ComingSoon = () => {
           <a
             href="https://github.com/borhansiddque"
             target="_blank"
-            className="inline-block rounded-lg px-4 py-2 min-w-3xs text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300"
+            className="rounded-lg px-4 py-2 min-w-3xs text-base font-bold bg-linear-to-r from-orange-700 to-orange-600 hover:bg-orange-600 text-orange-100 shadow-none hover:shadow-sm hover:shadow-orange-500 hover:scale-95 transition-all duration-300 inline-flex items-center justify-center gap-2"
           >
+            <FaGithub size={18} />
             Check My Github
           </a>
         </div>

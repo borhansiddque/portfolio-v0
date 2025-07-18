@@ -10,9 +10,7 @@ const GithubCalendar = () => {
       <div className="p-5 flex items-center justify-center">
         <GitHubCalendar
           username="borhansiddque"
-          For
-          Active
-          Commits
+          colorScheme="dark"
           transformData={(contributions) =>
             contributions.filter((day) => day.count > 0)
           }

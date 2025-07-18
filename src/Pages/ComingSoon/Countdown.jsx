@@ -28,8 +28,7 @@ const Countdown = ({ targetDate }) => {
   }
 
   return (
-    <div className="text-center text-white space-y-2 bg-orange-600 rounded-2xl ring-2 ring-orange-200 py-2">
-      {/* <p className="text-gray-400">Launching in:</p> */}
+    <div className="text-center text-white space-y-2 bg-linear-to-r from-orange-700 to-orange-600 rounded-2xl ring-2 ring-orange-200 py-2">
       <div className="flex justify-center gap-6 text-2xl font-bold">
         <div>{timeLeft.days}d</div>
         <div>{timeLeft.hours}h</div>

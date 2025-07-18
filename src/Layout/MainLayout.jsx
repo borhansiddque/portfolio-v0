@@ -5,10 +5,12 @@ import Footer from "../Components/Footer";
 // import LottieBackground from "../Components/LottieBackground";
 import GithubPopup from "../Components/GithubPopup";
 import { Toaster } from "react-hot-toast";
+import ScrollToTop from "../Components/ScrollToTop";
 
 const MainLayout = () => {
   return (
     <>
+      <ScrollToTop />
       <Toaster position="top-right" />
       <GithubPopup></GithubPopup>
       {/* <LottieBackground /> */}

@@ -17,9 +17,15 @@ const ProjectShowcase = () => {
   }, []);
   return (
     <section className="max-w-7xl mx-auto mb-30">
-      <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-10">
-        Featured Projects<span className="text-orange-500">.</span>
-      </h2>
+      <div className="mb-10 text-center">
+        <h2 className="text-3xl sm:text-4xl font-bold text-white">
+          Featured Projects<span className="text-orange-500">.</span>
+        </h2>
+        <p className="text-gray-400 text-base mt-3 md:w-4/5 mx-auto">
+          A selection of projects I've worked on recently — showcasing
+          real-world skills in frontend, backend, and full stack development.
+        </p>
+      </div>
 
       <div className="space-y-8">
         {projects.slice(0, 3).map((project, idx) => (
@@ -86,7 +92,7 @@ const ProjectShowcase = () => {
         <p className="text-sm text-gray-400 mb-2">Want to see more?</p>
         <Link
           to={"/my-works"}
-          className="flex items-center gap-2 w-fit mx-auto rounded-lg px-5 py-3 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300"
+          className="flex items-center gap-2 w-fit mx-auto rounded-lg px-5 py-3 text-base font-bold bg-linear-to-r from-orange-700 to-orange-600 text-orange-100 shadow-none hover:shadow-sm hover:shadow-orange-500 hover:scale-95 transition-all duration-300"
         >
           View All Projects
           <FaArrowRight></FaArrowRight>

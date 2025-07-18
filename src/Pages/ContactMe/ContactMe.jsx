@@ -79,25 +79,25 @@ const ContactMe = () => {
               name="name"
               type="text"
               placeholder="Your Name"
-              className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-md shadow-orange-500 transition-all duration-300 text-orange-200"
+              className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-sm shadow-orange-500 transition-all duration-300 text-orange-200"
             />
             <input
               name="email"
               type="email"
               placeholder="Your Email"
-              className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-md shadow-orange-500 transition-all duration-300 text-orange-200"
+              className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-sm shadow-orange-500 transition-all duration-300 text-orange-200"
             />
           </div>
           <textarea
             name="message"
             rows="5"
             placeholder="Your Message"
-            className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-md shadow-orange-500 transition-all duration-300 text-orange-200"
+            className="w-full bg-gray-900 p-3 rounded border border-gray-700 outline-none shadow-sm shadow-orange-500 transition-all duration-300 text-orange-200"
           ></textarea>
 
           <button
             type="submit"
-            className="inline-block rounded-full px-5 py-3 font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300 cursor-pointer"
+            className="inline-block rounded-full px-5 py-3 font-bold bg-linear-to-r from-orange-700 to-orange-600 text-orange-100 shadow-none hover:shadow-sm hover:shadow-orange-500 hover:scale-95 transition-all duration-300 cursor-pointer"
           >
             Send Message
           </button>

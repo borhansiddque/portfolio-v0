@@ -10,9 +10,9 @@ const Navbar = () => {
         <NavLink
           to={"/"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 hover:shadow-md hover:shadow-orange-500 transition-all duration-300 border-none ${
+            `text-base font-semibold uppercase px-4 py-1 rounded-sm text-orange-100 hover:bg-orange-700 hover:shadow-sm hover:shadow-orange-500 transition-all duration-300 border-none ${
               isActive
-                ? "shadow-md bg-orange-700 text-orange-200 shadow-orange-500"
+                ? "shadow-sm bg-linear-to-r from-orange-700 to-orange-600 text-orange-100 shadow-orange-500"
                 : "bg-none"
             }`
           }
@@ -24,9 +24,9 @@ const Navbar = () => {
         <NavLink
           to={"/my-works"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 hover:shadow-md hover:shadow-orange-500 transition-all duration-300 border-none ${
+            `text-base font-semibold uppercase px-4 py-1 rounded-sm text-orange-100 hover:bg-orange-700 hover:shadow-sm hover:shadow-orange-500 transition-all duration-300 border-none ${
               isActive
-                ? "shadow-md bg-orange-700 text-orange-200 shadow-orange-500"
+                ? "shadow-sm bg-linear-to-r from-orange-700 to-orange-600 text-orange-100 shadow-orange-500"
                 : "bg-none"
             }`
           }
@@ -38,9 +38,9 @@ const Navbar = () => {
         <NavLink
           to={"/blogs"}
           className={({ isActive }) =>
-            `text-base font-semibold uppercase px-4 py-1 rounded-md text-orange-200 hover:bg-orange-700 hover:shadow-md hover:shadow-orange-500 transition-all duration-300 border-none ${
+            `text-base font-semibold uppercase px-4 py-1 rounded-sm text-orange-100 hover:bg-orange-700 hover:shadow-sm hover:shadow-orange-500 transition-all duration-300 border-none ${
               isActive
-                ? "shadow-md bg-orange-700 text-orange-200 shadow-orange-500"
+                ? "shadow-sm bg-linear-to-r from-orange-700 to-orange-600 text-orange-100 shadow-orange-500"
                 : "bg-none"
             }`
           }
@@ -78,7 +78,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link
             to={"/contact-me"}
-            className="inline-block rounded-full px-4 py-2 text-base font-bold bg-orange-700 hover:bg-orange-600 text-orange-200 shadow-none hover:shadow-md hover:shadow-orange-500 hover:scale-95 transition-all duration-300"
+            className="inline-block rounded-full px-4 py-2 text-base font-bold bg-linear-to-r from-orange-700 to-orange-600 hover:bg-orange-600 text-orange-100 shadow-none hover:shadow-sm hover:shadow-orange-500 hover:scale-95 transition-all duration-300"
           >
             Contact Me
           </Link>

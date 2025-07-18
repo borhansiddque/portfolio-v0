@@ -25,7 +25,7 @@ const Banner = () => {
           <div className="flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-2">
               <FaReact size={24} />
-              <h4 className="text-xl uppercase">Junior Frontend Developer</h4>
+              <h4 className="text-xl uppercase">MERN stack Developer</h4>
             </div>
             <AvailableStatus></AvailableStatus>
           </div>
